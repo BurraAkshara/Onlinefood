@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodieHub - Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">🍴 FoodieHub</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="restaurants.html">Restaurants</a>
+      <a href="menu.html" class="active">Menu</a>
+      <a href="cart.html">Cart</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="menu">
+    <h2 id="restaurant-name"></h2>
+    <div class="grid" id="menu-items">
+      <section class="menu">
+    <h2>Our Menu</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.xjBQI-w874x4lT7AWS-zJgHaFb?r=0&rs=1&pid=ImgDetMain&o=7&rm=3.jpg" alt="Burger">
+        <h3>Burger</h3>
+        <p>₹150</p>
+        <button onclick="addToCart('Burger',150)">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.a_N6bO812Yp2Xqst1SB8iQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3.jpg" alt="Pizza">
+        <h3>Pizza</h3>
+        <p>₹300</p>
+        <button onclick="addToCart('Pizza',300)">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.do33yKKJ7cPvsqqpqxopLgHaHa?w=155&h=180&c=7&r=0&o=7&pid=1.7&rm=3.jpg" alt="Pasta">
+        <h3>Pasta</h3>
+        <p>₹200</p>
+        <button onclick="addToCart('Pasta',200)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  
+</body>
+</html>
